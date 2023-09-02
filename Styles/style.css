@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+}
+
+nav h1 {
+  color: #ffff;
+  font-weight: 500px;
+}
+
+.container {
+  font-family: "Quicksand", sans-serif;
+}
+
+.nav-container {
+  background-color: black;
+  display: flex;
+  width: 100vw;
+  height: 100px;
+}
