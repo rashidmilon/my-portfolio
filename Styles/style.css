@@ -3,9 +3,13 @@
 }
 
 nav {
-  background-color: black;
-  width: 100vw;
-  height: 100px;
+  background-color: #efefef;
+  width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.nav-container {
 }
 
 nav h1 {
