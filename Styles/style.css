@@ -45,6 +45,7 @@ nav {
 }
 
 .nav-items a {
+  font-size: 18px;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -55,52 +56,78 @@ nav {
   height: 350px;
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 0 15 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15 2 rgba(0, 0, 0, 0.4);
   display: flex;
 }
 
 .profile-picture-container {
   height: 350px;
   width: 350px;
-  /* justify-content: center;
-  align-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .square-container {
   border: 2px solid black;
   width: 250px;
   height: 250px;
-  border-radius: 5%;
-  margin-top: 50px;
-  margin-left: 50px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .circle-container {
   width: 200px;
   height: 200px;
   border: 2px solid black;
   border-radius: 50%;
-  margin-top: 25px;
-  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
-img {
-  height: 200px;
-  width: 200px;
+.circle-container img {
+  height: 100%;
+  width: 100%;
 }
 
 .profile-info-container {
   height: 350px;
   width: 650px;
   margin-top: 50px;
+  margin-right: 50px;
 }
 
 .profile-info h1 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .profile-info h3 {
-  font-size: 16px;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.social-icon-container {
+  display: flex;
   margin-top: 2px;
+  margin-right: 12px;
+}
+
+.social-icon {
+  font-size: 22px;
+  display: flex;
+  margin-top: 42px;
+  margin-right: 12px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+  margin: 12px 12px 12px 0px;
 }
