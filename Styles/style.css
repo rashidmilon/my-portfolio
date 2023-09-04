@@ -203,6 +203,10 @@ nav {
   margin-bottom: 25px;
 }
 
+.single-experiance a {
+  text-decoration: none;
+}
+
 .single-experiance h1 {
   font-size: 28px;
   font-weight: 550;
@@ -233,14 +237,16 @@ nav {
   margin-top: 50px;
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 0 15 2 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 1 2 rgba(0, 0, 0, 0.4);
   padding: 30px 35px;
+  overflow: hidden;
 }
 
 .my-portfolio-item-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .portfolio-items img {
   height: 150px;
   width: 260px;
@@ -251,19 +257,20 @@ nav {
 
 .portfolio-item-text {
   width: 260px;
-  box-shadow: 10px 10px 5px -7px rgba(55, 66, 107, 0.9);
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 15px -7px rgba(27, 29, 34, 0.9);
 }
 
 .project-name {
-  font-size: 28px;
-  font-weight: 400;
-  margin: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 0px 12px 0;
   text-transform: capitalize;
 }
 
 .text-box {
   width: 250px;
   font-size: 14px;
-  margin: 5px;
   text-transform: capitalize;
 }
