@@ -52,12 +52,13 @@ nav {
 }
 
 .profile-card-container {
-  width: 100%;
+  width: 1000px;
   height: 350px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 0 15 2 rgba(0, 0, 0, 0.4);
   display: flex;
+  margin-bottom: 50px;
 }
 
 .profile-picture-container {
@@ -130,4 +131,139 @@ nav {
   font-size: 12px;
   padding: 5px;
   margin: 12px 12px 12px 0px;
+}
+
+/* skills container start */
+.skill-container {
+  width: 1000px;
+  height: 420px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15 2 rgba(0, 0, 0, 0.4);
+  padding: 20px 35px;
+}
+
+.skills-set {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.single-skill {
+  display: flex;
+}
+
+.skill-image img {
+  width: 85px;
+  height: 85px;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+}
+
+.skill-title {
+  font-size: 28px;
+  font-weight: 550;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.skill-year {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.skill-short-des {
+  font-size: 14px;
+}
+
+.my-experiance-container {
+  width: 1000px;
+  height: 400px;
+  margin: 0px auto;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15 2 rgba(0, 0, 0, 0.4);
+  padding: 30px 35px;
+}
+
+.section-heading {
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.experiance-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.single-experiance {
+  margin-bottom: 25px;
+}
+
+.single-experiance h1 {
+  font-size: 28px;
+  font-weight: 550;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.single-experiance h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.single-experiance h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.single-experiance p {
+  font-size: 14px;
+}
+
+.my-portfolio {
+  width: 1000px;
+  height: 370px;
+  margin: 0px auto;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15 2 rgba(0, 0, 0, 0.4);
+  padding: 30px 35px;
+}
+
+.my-portfolio-item-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-items img {
+  height: 150px;
+  width: 260px;
+  margin-top: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.portfolio-item-text {
+  width: 260px;
+  box-shadow: 10px 10px 5px -7px rgba(55, 66, 107, 0.9);
+}
+
+.project-name {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+.text-box {
+  width: 250px;
+  font-size: 14px;
+  margin: 5px;
+  text-transform: capitalize;
 }
